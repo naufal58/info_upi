@@ -27,7 +27,7 @@ class Fakultas extends StatelessWidget {
                       Container(
                           decoration: BoxDecoration(border: Border.all()),
                           padding: EdgeInsets.all(14),
-                          child: Text('Hello World 1b')),
+                          child: Text('Fakultas Ilmu Pengetahuan Sosisal')),
                     ])),
 
 
