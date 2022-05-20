@@ -12,7 +12,26 @@ class Fakultas extends StatelessWidget {
           child: Container(
             decoration: BoxDecoration(border: Border.all()),
             padding: EdgeInsets.all(14),
-            child: Text("baris 1"),
+            child: Row (mainAxisAlignment: MainAxisAlignment.center, children: [
+            Container(
+                decoration: BoxDecoration(border: Border.all()),
+                padding: EdgeInsets.all(14),
+                child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Container(
+                          decoration: BoxDecoration(border: Border.all()),
+                          padding: EdgeInsets.all(14),
+                          child: Text('Fakultas Matematika dan Ilmu Pengetahuan Alam')),
+                      Container(
+                          decoration: BoxDecoration(border: Border.all()),
+                          padding: EdgeInsets.all(14),
+                          child: Text('Hello World 1b')),
+                    ])),
+
+
+      ]),
+            
           ),
           onTap: () {
             //gunakan navigator untuk panggil RincianFakultas
